@@ -1,0 +1,61 @@
+/* Cabeçalho */
+
+header {
+	background-image: linear-gradient(#fff,rgb(2, 0, 95),#fff);
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+  }
+  
+  #header_logo{
+  width: 20%;
+  }
+  
+  #header_titulo{
+	width: 60%;
+	font-size: 40px;
+	float: right;
+  }
+  /* 
+  #logo-ifam{
+	border: 2px solid black;
+	background-image: url(./imgs/logo-ifam.png);
+	background-size: auto;
+	height: 600px;
+	width: 35%;
+  } */
+
+/*Ajustando a cor e escondendo o conteúdo excedido*/
+.topnav {
+	width: 100%;
+    background-color: #171717;
+	text-align: left;
+    color: #a8a29e;
+	/* float: center;
+	display: block; */
+	/* margin auto para centralizar a div no meio da pagina */
+	/* margin: auto; */
+	/* max-width: 800px; */
+	/* display: flex;
+	justify-content: center; */
+	overflow: hidden;
+	padding: 10px;
+	/* border: 1px solid black ; */
+}
+
+/*Ajuste nos LINKS do Menu principal*/
+.topnav a {
+	color: #ffffff;
+	text-decoration: none;
+	/* text-align: center; */
+}
+
+/*Mude a cor quando passar o mouse*/
+.topnav a:hover {
+	color: #7f37c9;
+    transition: all 0.4s;
+}
