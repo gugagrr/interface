@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desenvolvimento WEB</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+  <!-- <iframe src="header.html" frameborder="0" scrolling="no" height="200" width="100%" style="border: 0px"></iframe>
+<object data="header.html" type="text/html" style="width: 100%;"></object> -->
+
+  <!-- INÍCIO DA HEADER -->
+  <header>
+    <div id="header_logo">
+      <img src="imgs\logo-ifam.png" alt="Esta é a logo do IFAM" height="110px">
+    </div>
+    <div id="header_titulo">
+      <p> <b>Espaço 4.0 - Curso de Desenvolvimento WEB</b></p>
+    </div>
+    <div id="header_logo">
+      <img src="imgs\equipe1.png" alt="Logo da Equipe 1 do Curso Dev Web" height="130px">
+    </div>
+
+  </header>
+
+  <!-- BARRA DE NAVEGAÇÃO -->
+  <div class="topnav"> <!-- Formata a barra de navegação com as abas destacadas-->
+    <a href="http://localhost/ifam/index.html">Home</a> |
+    <a href="http://www2.ifam.edu.br/campus/itacoatiara">Sobre a Instituição</a> |
+    <a href="http://localhost/ifam/leitura.html">Leituras</a>
+    <a href="http://localhost/ifam/login.html" style="float:right; padding-right: 20px;">Login</a> <!-- Coloca a opção de login a direita-->
+  </div>
+  <!-- FIM DA BARRA DE NAVEGAÇÃO -->
+  <!-- FIM DA HEADER -->
+
+
+
+
+  
+
+  <!-- Grid de CURSOS -->
+  <main class="container">
+    <section class="products-container">
+      <div class="card">
+        <div class="product-image" id="img-1" style="background-image:\wamp64\www\ifam\img-1"></div>
+
+        <h3>DESENVOLVIMENTO WEB</h3>
+        <p>Curso de Desenvolvimento WEB</p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="#" class="btn">Conhecer</a>
+      </div>
+      <div class="card">
+        <div class="product-image" id="img-2"></div>
+        <h3> Curso de Técnico em ADM 2</h3>
+        <p>Curso de Técnico em ADM </p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="#" class="btn">Conhecer</a>
+      </div>
+      <div class="card">
+        <div class="product-image" id="img-3"></div>
+        <h3>Curso de Técnico em MSI</h3>
+        <p>Curso de Técnico em MSI </p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="http://localhost/ifam/indexmsi.html" class="btn">Conhecer</a>
+      </div>
+      <div class="card">
+        <div class="product-image" id="img-4"></div>
+        <h3>Curso de Técnico em AGRO </h3>
+        <p>Curso de Técnico em AGRO </p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="#" class="btn">Conhecer</a>
+      </div>
+      <div class="card">
+        <div class="product-image" id="img-5"></div>
+        <h3>Curso de Técnico em Meio Ambiente </h3>
+        <p>Curso de Técnico em Meio Ambiente </p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="#" class="btn">Conhecer</a>
+      </div>
+      <div class="card">
+        <div class="product-image" id="img-6"></div>
+        <h3>Projeto Espaço 4.0 </h3>
+        <p> Projeto Espaço 4.0 </p>
+        <p>
+
+          <span class="bold"></span>
+        </p>
+        <a href="#" class="btn">Conhecer</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <h1>ESPAÇO 4.0</h1>
+        <p>Curso de Desenvolvimento WEB</p>
+        <div id="footer_social_media">
+          <a href="https://www.instagram.com/ifamitacoatiara/" class="footer-link" id="instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.facebook.com/Ifamitacoatiara" class="footer-link" id="facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a href="#" class="footer-link" id="whatsapp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+        </div>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Equipe 1</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Chrystyelen</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Gustavo</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Willy</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Lúcia Vitória</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Maria Victória</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Vinícius</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <h3>Produtos</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">App</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Desktop</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Cloud</a>
+        </li>
+      </ul>
+      <div id="footer_subscribe">
+        <h3>Subscribe</h3>
+        <p>Digite seu e-mail para obter novas soluções em banco de dados</p>
+
+        <div id="input_group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+
+        </div>
+      </div>
+    </div>
+    <div id="footer_copyright">
+      EQUIPE 1 | Desenvolvimento WEB
+      &#169
+      2023 all rights reserved
+    </div>
+  </footer>
+</body>
+
+</html>
